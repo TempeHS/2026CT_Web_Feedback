@@ -1,0 +1,11 @@
+.navbar-brand img {
+  height: 80px;
+}
+.carousel-inner img {
+  height: 400px;
+}
+
+.card-row {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

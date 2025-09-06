@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}{% block content %}
+
+<div class="container">
+  <br />
+  <h1 class="d-flex justify-content-center">Contact Us</h1>
+  <hr class="divider" />
+  <div class="row">
+    <div
+      class="col-lg-8 col-md-8 col-sm-12 d-flex flex-column align-items-center"
+    >
+      <h1>Send A Message</h1>
+      <form class="w-75">
+        <div class="form-group">
+          <label for="exampleInputName1" class="label-gray">Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="contactName1"
+            aria-describedby="nameHelp"
+            placeholder="Name"
+          />
+          <label for="exampleInputEmail1" class="label-gray">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="contactEmail1"
+            placeholder="Email"
+          />
+          <label for="exampleInputPhone1" class="label-gray">Phone</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="contactPhone1"
+            placeholder="Phone"
+          />
+          <hr />
+          <button
+            type="button"
+            class="btn btn-primary d-flex justify-content-center"
+            id="liveAlertBtn"
+            onclick="checkFormContact()"
+          >
+            Send
+          </button>
+          <br />
+          <div id="liveAlertPlaceholder" class="label-gray"></div>
+        </div>
+      </form>
+    </div>
+    <div
+      class="col-lg-4 col-md-4 col-sm-12 d-flex flex-column align-items-center"
+    >
+      <h1 class="d-flex justify-content-center">Call Us</h1>
+      <div class="card" style="width: 75%">
+        <div class="card-body">
+          <h5 class="card-title">Phone Number</h5>
+          <p class="card-text">(02) 9558 2336</p>
+          <a href="tel:+0295582336" class="btn btn-primary">Call Now</a>
+        </div>
+      </div>
+      <br />
+      <h1 class="d-flex justify-content-center">Email Us</h1>
+      <div class="card" style="width: 75%">
+        <div class="card-body">
+          <h5 class="card-title">Email Address</h5>
+          <p class="card-text">tempe-h.school@det.nsw.edu.au</p>
+          <a href="mailto:tempe-h.school@det.nsw.edu.au" class="btn btn-primary"
+            >Email NOW!!!11!!1!</a
+          >
+        </div>
+      </div>
+    </div>
+    {% endblock %}
+  </div>
+</div>

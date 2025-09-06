@@ -1,0 +1,128 @@
+{% extends 'layout.html' %} {% block content %}
+{%include"partials/slider.html"%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(
+          270deg,
+          rgb(207, 125, 32),
+          orange,
+          rgb(230, 175, 73),
+          rgb(226, 184, 129),
+          rgb(238, 155, 30),
+          rgb(226, 136, 63),
+          rgb(233, 144, 42)
+        );
+        background-size: 1400% 1400%;
+        animation: rainbow 20s linear infinite;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
+
+<style>
+  .rainbowbutton {
+    margin: 0;
+    height: 5vh;
+    background: linear-gradient(
+      270deg,
+      rgb(207, 125, 32),
+      orange,
+      rgb(230, 175, 73),
+      rgb(226, 184, 129),
+      rgb(238, 155, 30),
+      rgb(226, 136, 63),
+      rgb(233, 144, 42)
+    );
+    background-size: 1400% 1400%;
+    animation: rainbow 20s linear infinite;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
+
+<div class="container">
+  <div class="row">
+    <p></p>
+    {% for card in cards %}
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card">
+        <img src="{{card [3]}}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{card [0]}}</h5>
+          <p class="card-text">{{card [1]}}</p>
+          <a href="#" class="btn btn-primary rainbowbutton">{{card [2]}}</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1><strong>Jazz albums</strong></h1>
+      <p></p>
+    </div>
+  </div>
+  <div class="row g-1">
+    <div class="col-md-4 mb-4">
+      <div class="card" style="width: 18rem">
+        <img src="static/images/Mingus.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Charles Mingus’s Mingus Ah Um, released in 1959, is a bold and
+            eclectic jazz masterpiece that blends gospel, blues, swing, and
+            avant-garde elements into a deeply personal musical statement.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card" style="width: 18rem">
+        <img
+          src="static/images/tribe_called_quest.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <p class="card-text">
+            A Tribe Called Quest’s The Low End Theory is a groundbreaking 1991
+            hip-hop album that fused jazzy instrumentation with stripped-down
+            beats and laid the foundation for jazz rap.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card" style="width: 18rem">
+        <img src="/static/images/4:Am.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            “4:00AM” by Taeko Ohnuki is a delicate and emotionally rich ballad
+            that captures the quiet vulnerability of the early morning hours.
+            Set against the stillness before dawn.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,65 @@
+<div
+  class="d-flex flex-column vh-100"
+  style="
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: #22223b;
+  "
+>
+  <style>
+    @font-face {
+      font-family: "Hakubo";
+      src: url("/static/fonts/Hakubo.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+    .navbar-brand,
+    .nav-link {
+      font-family: "Hakubo", sans-serif, "UiSemi";
+      font-size: 25px;
+      color: #f8551c;
+      transition: color 0.2s;
+    }
+    .nav-link.active {
+      color: #f8551c !important;
+      background-color: transparent !important;
+    }
+    .nav-link:hover {
+      color: #ff7b4a !important;
+      background-color: transparent !important;
+    }
+  </style>
+  <a class="navbar-brand my-3 ms-3" href="index.html">
+    <img src="static/images/logo.png" />Lost In Tokyo
+  </a>
+
+  <ul class="navbar-nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="poi.html">Places of interest</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="acc.html">Accommodation</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="act.html">Activities</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gar.html">Getting Around</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="food.html">Food</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="cltr.html">Culture</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="tar.html">Tools And resourses</a>
+    </li>
+  </ul>
+</div>

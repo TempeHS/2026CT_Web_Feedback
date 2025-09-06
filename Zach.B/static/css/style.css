@@ -1,0 +1,54 @@
+.navbar-brand img {
+  height: 80px;
+}
+
+.slider_img {
+  height: auto;
+  width: 80%;
+}
+.carousel-inner {
+  background-color: rgb(65, 65, 65);
+}
+.lipsum-bodytext {
+  font-size: large;
+}
+.light-text {
+  color: rgba(255, 255, 255, 0.63);
+}
+.index-bg {
+  background-color: #222;
+}
+.dark-margin {
+  background-color: black;
+}
+.dark-bg {
+  background-color: #222;
+  padding-bottom: 8rem;
+}
+
+.card {
+  background-color: #0a0101;
+  color: rgb(255, 255, 255);
+}
+.error-bg {
+  padding-bottom: 13rem;
+}
+.contact-pg {
+  padding-top: 2rem;
+}
+.contact-logo {
+  height: 50%;
+  width: 70%;
+}
+.button {
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: 2px solid #04aa6d; /* Green */
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #04aa6d; /* Green */
+  color: white;
+}

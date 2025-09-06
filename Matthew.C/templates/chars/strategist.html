@@ -1,0 +1,31 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  <div class="row mb-5">
+    <div class="text-center">
+      <h1>Strategist</h1>
+      <h2>
+        Strategists are the healers and support of your team during matches,
+        they are usually on the backline healing the duelists and vanguards.
+      </h2>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for card in cards %}
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="card">
+        <img src="{{ card[3]}}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ card[0]}}</h5>
+          <p class="card-text">{{ card[1]}}</p>
+          <a href="{{ card[4]}}" class="btn btn-primary">{{ card[2]}}</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

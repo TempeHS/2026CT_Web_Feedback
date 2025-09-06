@@ -1,0 +1,22 @@
+{% extends 'layout.html' %} {% block content %}<style>
+  body {
+    background-image: url("static/images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: static;
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+<br />
+
+<div class="container logincontainer col-sm-12 col-md-8 col-lg-6">
+  <div class="row">
+    <h1>Login</h1>
+  </div>
+  <div class="container">
+    <div class="row">{% include 'partials/login.html' %} {% endblock %}</div>
+  </div>
+</div>
+<br />
+{% include 'partials/loginalert.html' %} {% include 'partials/logintoast.html'
+%}

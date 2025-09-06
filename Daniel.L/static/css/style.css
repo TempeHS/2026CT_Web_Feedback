@@ -1,0 +1,17 @@
+.navbar-brand img {
+  height: 60px;
+}
+.h1-test {
+  color: #791414;
+}
+
+.btn-outline-custom {
+  color: #0b57d0;
+  border-color: #8f8686;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus {
+  background-color: #222222;
+  color: #fff;
+}

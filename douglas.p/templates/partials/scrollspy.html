@@ -1,0 +1,5 @@
+<nav id="navbar-example3" class="nav nav-pills flex-column ms-3">
+  {% for id, title in headings %}
+  <a class="nav-link" href="#{{ id }}">{{ title }}</a>
+  {% endfor %}
+</nav>

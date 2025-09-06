@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  background-color: #d7ddf0;
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+.menu {
+  background-color: #0d6efd;
+}
+
+.carousel-inner img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .carousel-inner img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.nav-link {
+  color: white;
+}
+
+.signup-bg {
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.basic-3 {
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 3px
+    no-repeat;
+  transition: 0.5s;
+}
+.basic-3:hover {
+  --d: 100%;
+}
+
+.dropdown-item {
+  background: linear-gradient(#00000025 0 0) left / 100% var(--d, 0%) no-repeat;
+  transition: 0.5s;
+}
+.dropdown-item:hover {
+  --d: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.shop {
+  font-size: 23px;
+}
+
+a.shop {
+  width: 200px;
+}
+
+hr.divider {
+  border-top: 4px solid #0d6efd;
+}
+
+hr.hr-white {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+.image-50 {
+  width: 50%;
+  height: auto;
+}
+
+.label-gray {
+  color: rgb(49, 49, 49);
+}
+
+.callout {
+  background-color: #0d6efd;
+  border-left: #093f8f 10px solid;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}

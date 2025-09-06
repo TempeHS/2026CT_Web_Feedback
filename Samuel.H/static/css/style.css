@@ -1,0 +1,26 @@
+.navbar-brand img {
+  height: 70px;
+}
+
+.carousel-inner img {
+  height: 1000px;
+}
+
+.basic-3 {
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 3px
+    no-repeat;
+  transition: 0.5s;
+}
+
+.basic-3:hover {
+  --d: 100%;
+}
+
+.small-image {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #e0f7fa;
+}

@@ -1,0 +1,71 @@
+{% extends 'layout.html' %} {% block content %}
+<p class="text-center fs-2">Welcome to Hallownest</p>
+<p class="text-start p-4">
+  Welcome to Hallownest, a vast, ruined kingdom full of secrets, danger, and
+  unforgettable battles. Hollow Knight is renowned not just for its beautiful,
+  hand-drawn world and haunting soundtrack, but also for its intense and
+  memorable boss fights. Whether you're a first-time player struggling to
+  survive your encounter with Hornet or a veteran prepping for the brutal
+  Pantheon of Hallownest, this site is your companion through every
+  nail-swinging, soul-draining battle the game throws at you. This guide was
+  built with one purpose: to help you defeat every boss in Hollow Knight, no
+  matter your skill level. From the early game’s deceptively simple enemies to
+  the late-game challenges that push even the best players to their limits,
+  we’ve broken down each boss with clear, detailed strategies. You’ll find
+  recommended charms, movement tactics, attack patterns, and expert tips
+  tailored to help you adapt and conquer. But this isn’t just about winning
+  fights — it’s about understanding them. Each boss in Hollow Knight has its own
+  rhythm, personality, and lore. By studying their behavior and mastering your
+  own movement, you won’t just survive — you’ll thrive. And for those aiming to
+  complete the Pantheons or pursue 112% completion, we’ve got advanced
+  strategies and charm setups to help you optimize your build and approach.
+</p>
+<div class="col-md-4">
+  <p class="text-start ps-3">On this site, you'll find:</p>
+  <ul class="ps-4">
+    <li>Charm builds</li>
+    <li>Boss strategies</li>
+    <li>And much more!</li>
+  </ul>
+</div>
+{% include "partials/slider.html" %}
+<div class="container">
+  <div class="row">
+    {% for card in cards %}
+    <div class="col">
+      <div class="card">
+        <img src="{{ card[3]}}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ card[0]}}</h5>
+          <p class="card-text">{{ card[1]}}</p>
+          <a href="{{ card[2]}}" class="btn btn-primary">Go to Boss</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div
+  style="
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1050;
+    width: 200px;
+  "
+  class="card shadow"
+>
+  <div class="card-body text-center">
+    <h5 class="card-title">MR BEAST GIVING FREE MONEY</h5>
+    <p class="card-text">CLICK BELOW</p>
+    <a href="/scam.html" class="btn btn-primary">CLICK ME</a>
+  </div>
+</div>
+
+<p class="text-center p-4 fs-5">About us</p>
+<div class="text-center">
+  <a href="/about.html" class="btn btn-secondary">Why we made this stuff</a>
+</div>
+  {% endblock %}
+</a>

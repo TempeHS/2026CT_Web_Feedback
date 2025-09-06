@@ -1,0 +1,277 @@
+{% extends 'layout.html' %} {% block content %}
+<p class="text-center">Charms</p>
+<p class="text-start p-2">
+  Charms in Hollow Knight don’t just enhance your abilities—they define how you
+  play. Whether you’re a spell-slinging glass cannon, a Nail-focused duelist, or
+  a relentless tank built for endurance, charm loadouts help you personalize
+  every battle. This page offers curated charm combinations based on different
+  playstyles and available charm notches, so you can quickly find builds that
+  match your strategy, skill level, or challenge run goals.
+</p>
+<p class="text-start p-2">
+  With recommendations that adapt to everything from early-game exploring to
+  high-risk Pantheon boss fights, this guide is all about helping you fine-tune
+  your setup. No need to guess which charms work best together—we’ve done the
+  trial and error so you can focus on mastering Hallownest.
+</p>
+
+    <!-- Intro -->
+    <div class="container mt-4">
+      <h1 class="display-5">Charm Loadouts by Playstyle</h1>
+      <p class="lead">
+        Find the ideal charm builds for Nail-focused, Defensive, or Spellcaster
+        runs—tailored to every stage of your journey through Hallownest.
+      </p>
+    </div>
+    <!-- Tabs -->
+    <div class="container mt-4">
+      <ul class="nav nav-tabs" id="loadoutTabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#early"
+            >🌱 Early</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#mid">🛠️ Mid</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#late">🐚 Late</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#very-late"
+            >🦋 Very Late</a
+          >
+        </li>
+      </ul>
+
+      <div class="tab-content pt-3">
+        <!-- Game Phase Sections -->
+        <!-- EARLY -->
+        <div class="tab-pane fade show active" id="early">
+          <h2>🌱 Early Game</h2>
+          <div class="row">
+            <!-- Nail Build -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Edge Sprinter</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Longnail</li>
+                    <li>Dashmaster</li>
+                  </ul>
+                  <p class="card-text">
+                    Quick strikes and extended range for fast fights like Gruz
+                    Mother or False Knight.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Defensive -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Shellborn Warden</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Stalwart Shell</li>
+                    <li>Any other charms(not much early defensive charms)</li>
+                  </ul>
+                  <p>Safe windows to heal.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Spell -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Soulwhisper Initiate</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Soul Catcher</li>
+                    <li>Shaman Stone</li>
+                  </ul>
+                  <p>
+                    Vengeful Spirit becomes a beast—solid burst for early mobs
+                    and bosses.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MID -->
+        <div class="tab-pane fade" id="mid">
+          <h2>🛠️ Mid Game</h2>
+          <div class="row">
+            <!-- Nail Build -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Steelfang Striker</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Quick Slash</li>
+                    <li>Longnail</li>
+                    <li>Steady Body</li>
+                  </ul>
+                  <p>
+                    Fast DPS for dense zones like Deepnest or City of Tears
+                    arenas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Defensive -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Grubshield Nomad</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Quick Focus</li>
+                    <li>Grubsong</li>
+                  </ul>
+                  <p>
+                    More healing power and passive defense while exploring
+                    tougher zones.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Spell -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Twilight Binder</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Spell Twister</li>
+                    <li>Shaman Stone</li>
+                  </ul>
+                  <p>
+                    Soul efficiency ramps up, letting you spam more often with
+                    impact.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LATE -->
+        <div class="tab-pane fade" id="late">
+          <h2>🐚 Late Game</h2>
+          <div class="row">
+            <!-- Nail Build -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Bladeshade Reaper</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Unbreakable Strength</li>
+                    <li>Quick Slash</li>
+                    <li>Longnail</li>
+                    <li>Steady Body</li>
+                  </ul>
+                  <p>
+                    Big damage, big risk—perfect for high DPS duels and Pantheon
+                    prep.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Defensive -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Hivelit Survivor</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Quick Focus</li>
+                    <li>Grubsong</li>
+                    <li>Hiveblood</li>
+                  </ul>
+                  <p>
+                    Great for extended exploration and radiant boss attempts
+                    with steady healing.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Spell -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Echo Channeler</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Shaman Stone</li>
+                    <li>Spell Twister</li>
+                    <li>Dream Wielder</li>
+                  </ul>
+                  <p>
+                    Stack your Soul tools and cast like crazy—excellent for
+                    burst phases.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VERY LATE -->
+        <div class="tab-pane fade" id="very-late">
+          <h2>🦋 Very Late Game</h2>
+          <div class="row">
+            <!-- Nail Build -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Voidbrand Duelist</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Quick Slash</li>
+                    <li>Unbreakable Strength</li>
+                    <li>Steady Body</li>
+                    <li>Longnail</li>
+                  </ul>
+                  <p>
+                    Maximum aggression—go all in for high-risk, high-reward boss
+                    fights.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Defensive -->
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Heartbound Shell</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Quick Focus</li>
+                    <li>Spell Twister</li>
+                    <li>Grubsong</li>
+                    <li>Unbreakable Heart</li>
+                  </ul>
+                  <p>
+                    Maximum aggression—go all in for high-risk, high-reward boss
+                    fights. Try to use Desolate Dive's I Frames to protect yourself from damage
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-secondary text-light mb-4">
+                <div class="card-header">Kingsoul Flame</div>
+                <div class="card-body">
+                  <ul>
+                    <li>Spell Twister</li>
+                    <li>Shaman Stone</li>
+                    <li>Kingsoul</li>
+                  </ul>
+                  <p>
+                    Dream-like caster build with range and regen. Pairs beautifully with careful positioning and Soul recovery.
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
