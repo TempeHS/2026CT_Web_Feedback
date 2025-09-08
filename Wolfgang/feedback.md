@@ -1,5 +1,9 @@
 # Wolfgang - Web Design Project Feedback
 
+## Website Overview
+
+Wolfgang's web design project is a comprehensive carcinization education website that serves as an educational platform dedicated to teaching visitors about the fascinating evolutionary concept of carcinization - the process by which various crustacean lineages have independently evolved crab-like forms. The website functions as a scientific education resource featuring detailed explanations of what carcinization is and its evolutionary significance, historical context of scientific understanding of this phenomenon, analysis of the causes and mechanisms behind carcinization, educational content about species that have undergone this evolutionary process, and a donation system to support carcinization research and education. Key features include an image carousel showcasing examples of carcinization in nature, interactive dark mode toggle functionality for enhanced user experience, comprehensive navigation organizing complex scientific content into accessible sections, functional donation processing with form validation and user feedback, and professional responsive design with custom CSS styling and Bootstrap integration for optimal viewing across devices.
+
 ## Page & Component Summary
 
 | Page/File Name  | File Type     | Bootstrap Components Used    | Flask/Jinja2 Functionality                                | Key Features                                  |

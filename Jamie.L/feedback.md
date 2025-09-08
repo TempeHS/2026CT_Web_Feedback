@@ -1,5 +1,9 @@
 # Jamie.L - Web Design Project Feedback
 
+## Website Overview
+
+Jamie.L has created an impressive Hollow Knight boss guide website that serves as a comprehensive resource for players navigating the challenging boss battles in this popular indie game. The site combines detailed gameplay information with strategic advice, featuring boss statistics, charm recommendations, completion checklists, and strategic guides. The project demonstrates excellent understanding of the target gaming audience while incorporating creative elements like a humorous scam awareness feature that adds personality to the educational content.
+
 ## Page & Component Summary
 
 | Page/File Name       | File Type     | Bootstrap Components Used   | Flask/Jinja2 Functionality               | Key Features                                    |
@@ -25,8 +29,6 @@
 | scam2.html           | Template      | Typography                  | Simple text content                      | Scam prevention resource link                   |
 | style.css            | Stylesheet    | N/A                         | N/A                                      | Basic navbar styling                            |
 | main.py              | Flask App     | N/A                         | Routes, render_template, data structures | Application logic with 16 routes                |
-
-Jamie.L has created an impressive Hollow Knight boss guide website that serves as a comprehensive resource for players navigating the challenging boss battles in this popular indie game. The site combines detailed gameplay information with strategic advice, featuring boss statistics, charm recommendations, completion checklists, and strategic guides. The project demonstrates excellent understanding of the target gaming audience while incorporating creative elements like a humorous scam awareness feature that adds personality to the educational content.
 
 ## HTML Structure and Semantics
 

@@ -1,5 +1,9 @@
 # douglas.p - Web Design Project Feedback
 
+## Website Overview
+
+Douglas.p has created an ambitious science fiction universe website that serves as a comprehensive encyclopedia for an original fictional world. The site explores multiple alien species (The Talt), various planets (Earth, Skult, Fartworld, Redworld), humanity's role in this universe, and advanced technology like starships. This creative project demonstrates substantial world-building imagination combined with technical web development skills to create an immersive digital experience for science fiction enthusiasts.
+
 ## Page & Component Summary
 
 | Page/File Name          | File Type     | Bootstrap Components Used     | Flask/Jinja2 Functionality                     | Key Features                                      |
@@ -21,8 +25,6 @@
 | contact.html            | Template      | Container, Grid               | extends, block                                 | Contact information page                          |
 | style.css               | Stylesheet    | N/A                           | N/A                                            | Basic styling for navbar and carousel             |
 | main.py                 | Flask App     | N/A                           | Routes, render_template, data structures       | Application logic with 10 routes and dynamic data |
-
-Douglas.p has created an ambitious science fiction universe website that serves as a comprehensive encyclopedia for an original fictional world. The site explores multiple alien species (The Talt), various planets (Earth, Skult, Fartworld, Redworld), humanity's role in this universe, and advanced technology like starships. This creative project demonstrates substantial world-building imagination combined with technical web development skills to create an immersive digital experience for science fiction enthusiasts.
 
 ## HTML Structure and Semantics
 

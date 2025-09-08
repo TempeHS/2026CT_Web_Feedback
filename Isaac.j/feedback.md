@@ -1,5 +1,9 @@
 # Isaac.j - Web Design Project Feedback
 
+## Website Overview
+
+Isaac.j has created a Tokyo travel guide website with an authentic Japanese aesthetic and clear thematic purpose. The site aims to help visitors navigate Tokyo by providing information about places of interest, accommodation, activities, food, culture, and transportation. The design incorporates Japanese typography and color schemes to create an immersive cultural experience, though the content implementation remains largely incomplete.
+
 ## Page & Component Summary
 
 | Page/File Name       | File Type     | Bootstrap Components Used | Flask/Jinja2 Functionality                | Key Features                              |
@@ -18,8 +22,6 @@
 | contact.html         | Template      | Container, Grid (broken)  | extends, block                            | Contact page (HTML errors)                |
 | style.css            | Stylesheet    | N/A                       | N/A                                       | Basic navbar and carousel styling         |
 | main.py              | Flask App     | N/A                       | Routes, render_template, placeholder data | Application logic with 9 routes           |
-
-Isaac.j has created a Tokyo travel guide website with an authentic Japanese aesthetic and clear thematic purpose. The site aims to help visitors navigate Tokyo by providing information about places of interest, accommodation, activities, food, culture, and transportation. The design incorporates Japanese typography and color schemes to create an immersive cultural experience, though the content implementation remains largely incomplete.
 
 ## HTML Structure and Semantics
 

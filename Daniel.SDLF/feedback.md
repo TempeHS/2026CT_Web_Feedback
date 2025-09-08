@@ -1,5 +1,9 @@
 # Daniel.SDLF - Web Design Project Feedback
 
+## Website Overview
+
+Daniel.SDLF's web design project is a book genre exploration platform called "Book Genre Explorer" that serves as an educational resource for readers interested in discovering different literary genres. The website features a simple yet functional design focused on helping users understand and navigate various book genres including Fantasy, Horror, Sci-Fi, and Historic fiction. The site demonstrates basic web development concepts through its implementation of Flask routing, Bootstrap framework integration, template inheritance, and dynamic content rendering. Key features include a card-based navigation system that links to detailed genre information, an auto-playing carousel showcasing book themes, basic search functionality in the navigation, and a structured approach to literary content organization. The website aims to provide book recommendations and genre information, though some content areas remain incomplete.
+
 ## Page & Component Summary
 
 | Page/File Name       | File Type     | Bootstrap Components Used  | Flask/Jinja2 Functionality            | Key Features                                   |
