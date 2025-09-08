@@ -1,0 +1,146 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "slider_2.png": [],
+      "slider_3.png": [],
+      "slider_1.png": [],
+      "card_images": {
+        "card_td1.png": [],
+        "card_factory.png": [],
+        "card_towerofdoom.png": [],
+        "card_cryptohack.png": [],
+        "card_cococabana.png": [],
+        "card_monsterbrawl.png": [],
+        "card_td2.png": [],
+        "card_piratesvoyage.png": [],
+        "card_lasertag.png": [],
+        "card_fishing.png": [],
+        "card_deceptivedinos.png": []
+      },
+      "logo.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "404.html": [],
+    "layout.html": [],
+    "hidden.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "gamemode_classes": {
+      "luck.html": [],
+      "plus.html": [],
+      "skill.html": [],
+      "hybrid.html": []
+    },
+    "contact.html": [],
+    "lipsum.txt": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, slider image, card backgrounds, error page, contact form, and button hover effects. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/home",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact",
+            "method": "GET/POST",
+            "description": "Renders contact page and handles name submission."
+          },
+          {
+            "route": "/hidden",
+            "method": "GET",
+            "description": "Renders hidden page."
+          },
+          {
+            "route": "/luck",
+            "method": "GET",
+            "description": "Renders luck gamemode page with cards."
+          },
+          {
+            "route": "/skill",
+            "method": "GET",
+            "description": "Renders skill gamemode page with cards."
+          },
+          {
+            "route": "/hybrid",
+            "method": "GET",
+            "description": "Renders hybrid gamemode page with cards."
+          },
+          {
+            "route": "/plus",
+            "method": "GET",
+            "description": "Renders plus gamemode page with cards."
+          }
+        ],
+        "error_handlers": [
+          { "error": "404", "description": "Custom 404 error page rendering." }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial. Custom dark background and light text styling.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, custom form, and embedded Google Maps iframe. Displays submitted name and logo if provided.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Form",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block", "if statement", "include"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content, sets dark background.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "static": {
+    "js": {
+      "script.js": []
+    },
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "Slider3.png": [],
+      "logo.png": [],
+      "favicon.png": [],
+      "Slider2.png": [],
+      "Slider1.png": [],
+      "Stuff": {
+        "3.png": [],
+        "4.png": [],
+        "5.png": [],
+        "1.png": [],
+        "6.png": [],
+        "2.png": []
+      },
+      "pages": {
+        "desktop2.jpg": [],
+        "desktop1.jpg": []
+      },
+      "login.png": [],
+      "logo_test.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "pricing.html": [],
+    "index.html": [],
+    "about_desktops.html": [],
+    "layout.html": [],
+    "compare_employee.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "find_laptops.html": [],
+    "login.html": [],
+    "compare_student.html": [],
+    "contact.html": [],
+    "about_laptops.html": [],
+    "signup.html": [],
+    "find_desktops.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for font, navbar brand image, menu background, carousel image height, signup background, and button hover. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/login.html",
+            "method": "GET",
+            "description": "Renders login page."
+          },
+          {
+            "route": "/signup.html",
+            "method": "GET",
+            "description": "Renders signup page."
+          },
+          {
+            "route": "/pricing.html",
+            "method": "GET",
+            "description": "Renders pricing page."
+          },
+          {
+            "route": "/about_laptops.html",
+            "method": "GET",
+            "description": "Renders about laptops page."
+          },
+          {
+            "route": "/about_desktops.html",
+            "method": "GET",
+            "description": "Renders about desktops page."
+          },
+          {
+            "route": "/find_laptops.html",
+            "method": "GET",
+            "description": "Renders find laptops page."
+          },
+          {
+            "route": "/find_desktops.html",
+            "method": "GET",
+            "description": "Renders find desktops page."
+          },
+          {
+            "route": "/compare_student.html",
+            "method": "GET",
+            "description": "Renders compare student page."
+          },
+          {
+            "route": "/compare_employee.html",
+            "method": "GET",
+            "description": "Renders compare employee page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial. Custom card layout and callout section.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, custom form, and callout card. Displays contact info and location.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Form",
+          "Card"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content. Loads custom JS script.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

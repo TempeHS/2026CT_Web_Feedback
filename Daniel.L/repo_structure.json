@@ -1,0 +1,173 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "google_docs_icon.png": [],
+      "Slider_3.png": [],
+      "google_drive_icon.png": [],
+      "card_image4.png": [],
+      "google_translate_icon.png": [],
+      "google_calendar_icon.png": [],
+      "Slider_2.png": [],
+      "card_image1.png": [],
+      "card_image3.png": [],
+      "card_image2.png": [],
+      "google_photos_icon.png": [],
+      "card_image5.png": [],
+      "google_maps_icon.png": [],
+      "Slider_4.png": [],
+      "google_gmail_icon.png": [],
+      "logo.png": [],
+      "icon.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "whyusegoogle.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "features.html": [],
+    "important.txt": [],
+    "contact.html": [],
+    "whatisgoogle.html": [],
+    "pagenotfound.html": [],
+    "steps.html": [],
+    "steps": {
+      "step_1.html": [],
+      "step_4.html": [],
+      "step_2.html": [],
+      "step_3.html": [],
+      "intro.html": [],
+      "step_5.html": []
+    }
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, button colors, and hover effects. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/whatisgoogle",
+            "method": "GET",
+            "description": "Renders whatisgoogle page."
+          },
+          {
+            "route": "/whyusegoogle",
+            "method": "GET",
+            "description": "Renders whyusegoogle page."
+          },
+          {
+            "route": "/features",
+            "method": "GET",
+            "description": "Renders features page."
+          },
+          {
+            "route": "/steps",
+            "method": "GET",
+            "description": "Renders steps page."
+          },
+          {
+            "route": "/help",
+            "method": "GET",
+            "description": "Renders steps page."
+          },
+          {
+            "route": "/steps/intro",
+            "method": "GET",
+            "description": "Renders steps intro page."
+          },
+          {
+            "route": "/steps/1",
+            "method": "GET",
+            "description": "Renders steps step_1 page."
+          },
+          {
+            "route": "/steps/2",
+            "method": "GET",
+            "description": "Renders steps step_2 page."
+          },
+          {
+            "route": "/steps/3",
+            "method": "GET",
+            "description": "Renders steps step_3 page."
+          },
+          {
+            "route": "/steps/4",
+            "method": "GET",
+            "description": "Renders steps step_4 page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial. Custom card layout and button styling.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, custom form, and embedded Google Maps iframe. Displays contact info and location.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Form",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

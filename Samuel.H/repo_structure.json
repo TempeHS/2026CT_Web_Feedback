@@ -1,0 +1,164 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "card2.png": [],
+      "card4.png": [],
+      "card5.png": [],
+      "slider3.png": [],
+      "furtherinfo.png": [],
+      "card3.png": [],
+      "card6.png": [],
+      "faq.png": [],
+      "card1.png": [],
+      "tempeimg.png": [],
+      "slider2.png": [],
+      "logo.png": [],
+      "aboutus.png": [],
+      "slider.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "beginner.html": [],
+    "index.html": [],
+    "professionalcontent.html": [],
+    "further.html": [],
+    "basic.html": [],
+    "layout.html": [],
+    "lesson.html": [],
+    "intermediate.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "contact.html": [],
+    "faq.html": [],
+    "about.html": [],
+    "beginnercontent.html": [],
+    "signup.html": [],
+    "intermediatecontent.html": [],
+    "pro.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image height, carousel image height, gradient hover effect for .basic-3, and small-image class. Body background color set. Most styling handled by Bootstrap."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/faq.html",
+            "method": "GET",
+            "description": "Renders FAQ page."
+          },
+          {
+            "route": "/signup.html",
+            "method": "GET",
+            "description": "Renders signup page."
+          },
+          {
+            "route": "/basic.html",
+            "method": "GET",
+            "description": "Renders basic page."
+          },
+          {
+            "route": "/further.html",
+            "method": "GET",
+            "description": "Renders further page."
+          },
+          {
+            "route": "/about.html",
+            "method": "GET",
+            "description": "Renders about page."
+          },
+          {
+            "route": "/lesson.html",
+            "method": "GET",
+            "description": "Renders lesson page."
+          },
+          {
+            "route": "/pro.html",
+            "method": "GET",
+            "description": "Renders pro page."
+          },
+          {
+            "route": "/intermediate.html",
+            "method": "GET",
+            "description": "Renders intermediate page."
+          },
+          {
+            "route": "/beginner.html",
+            "method": "GET",
+            "description": "Renders beginner page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial and embedded YouTube video.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns",
+          "Iframe"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, embedded Google Maps iframe, and image.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe",
+          "Image"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

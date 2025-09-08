@@ -1,0 +1,130 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "card2.png": [],
+      "signin.png": [],
+      "card4.png": [],
+      "card5.png": [],
+      "slider3.png": [],
+      "card3.png": [],
+      "card6.png": [],
+      "chicken.png": [],
+      "card1.png": [],
+      "chicken2.png": [],
+      "slider1.png": [],
+      "slider2.png": [],
+      "logo.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "contact.html": [],
+    "signin.html": [],
+    "recipes.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, carousel images, and button colors. Includes hover effects and custom tertiary button. Most styling handled by Bootstrap."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/recipes.html",
+            "method": "GET",
+            "description": "Renders recipes page."
+          },
+          {
+            "route": "/signin.html",
+            "method": "GET",
+            "description": "Renders sign-in page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, embedded Google Maps iframe, and star rating system.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe",
+          "Ratio",
+          "Star rating"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      },
+      {
+        "file": "recipes.html",
+        "overview": "Recipe page for KFC's fried chicken, uses Bootstrap grid, columns, and image.",
+        "bootstrap_components": ["Grid", "Container", "Row", "Image", "Card"],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "signin.html",
+        "overview": "Sign-in page with Bootstrap form, custom button, and alert for success.",
+        "bootstrap_components": ["Form", "Button", "Alert", "Container", "Row"],
+        "jinja2_features": ["extends", "block"]
+      }
+    ]
+  }
+}

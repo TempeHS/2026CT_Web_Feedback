@@ -1,0 +1,166 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "Slider_3.png": [],
+      "paypal.png": [],
+      "visa.png": [],
+      "Slider_1.png": [],
+      "Slider_2.png": [],
+      "Logo.png": [],
+      "Card_1.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "pantheon.html": [],
+    "charms.html": [],
+    "hallownest.html": [],
+    "index.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "falseknight.html": [],
+    "mantislords.html": [],
+    "gruzmother.html": [],
+    "contact.html": [],
+    "hornet1.html": [],
+    "about.html": [],
+    "scam.html": [],
+    "scam2.html": [],
+    "broodingmawlek.html": [],
+    "checklist.html": [],
+    "bossinfo.html": [],
+    "MMM.html": [],
+    "miniboss.html": []
+  },
+  "new website": {
+    "index.html": [],
+    "script.js": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for the project (details not yet read, but file exists). Most styling likely handled by Bootstrap."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/checklist.html",
+            "method": "GET",
+            "description": "Renders checklist page."
+          },
+          {
+            "route": "/bossinfo.html",
+            "method": "GET",
+            "description": "Renders boss info page."
+          },
+          {
+            "route": "/falseknight.html",
+            "method": "GET",
+            "description": "Renders False Knight page."
+          },
+          {
+            "route": "/gruzmother.html",
+            "method": "GET",
+            "description": "Renders Gruz Mother page."
+          },
+          {
+            "route": "/broodingmawlek.html",
+            "method": "GET",
+            "description": "Renders Brooding Mawlek page."
+          },
+          {
+            "route": "/hornet1.html",
+            "method": "GET",
+            "description": "Renders Hornet 1 page."
+          },
+          {
+            "route": "/MMM.html",
+            "method": "GET",
+            "description": "Renders MMM page."
+          },
+          {
+            "route": "/mantislords.html",
+            "method": "GET",
+            "description": "Renders Mantis Lords page."
+          },
+          {
+            "route": "/scam.html",
+            "method": "GET",
+            "description": "Renders Scam page."
+          },
+          {
+            "route": "/scam2.html",
+            "method": "GET",
+            "description": "Renders Scam2 page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid and columns.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

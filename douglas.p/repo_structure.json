@@ -1,0 +1,135 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "talt bio.png": [],
+      "E'l'ish diagram.png": [],
+      "spacewhale.png": [],
+      "we were born here.png": [],
+      "skult.png": [],
+      "proto organ animal.png": [],
+      "pillars of creation.png": [],
+      "Spaceships.png": [],
+      "world.png": [],
+      "fart world.png": [],
+      "homeworld map.png": [],
+      "talt spear thrower.png": [],
+      "LOGO-dark.png": [],
+      "skult world map.png": [],
+      "LOGO.png": [],
+      "malko.png": [],
+      "the talt.png": [],
+      "red world.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "fartworld.html": [],
+    "layout.html": [],
+    "aboutthesite.html": [],
+    "partials": {
+      "slider.html": [],
+      "darkmode.html": [],
+      "scrollspy.html": [],
+      "menu.html": []
+    },
+    "generalinfo.html": [],
+    "starships.html": [],
+    "contact.html": [],
+    "pagelist.html": [],
+    "skult.html": [],
+    "talt.html": [],
+    "humanity.html": [],
+    "redworld.html": [],
+    "earth.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, carousel image height, and card row padding. Most layout and components handled by Bootstrap."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders aboutthesite page with card data."
+          },
+          {
+            "route": "/aboutthesite.html",
+            "method": "GET",
+            "description": "Renders aboutthesite page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/earth.html",
+            "method": "GET",
+            "description": "Renders earth page with headings."
+          },
+          {
+            "route": "/fartworld.html",
+            "method": "GET",
+            "description": "Renders fartworld page."
+          },
+          {
+            "route": "/redworld.html",
+            "method": "GET",
+            "description": "Renders redworld page."
+          },
+          {
+            "route": "/skult.html",
+            "method": "GET",
+            "description": "Renders skult page with headings."
+          },
+          {
+            "route": "/generalinfo.html",
+            "method": "GET",
+            "description": "Renders generalinfo page."
+          },
+          {
+            "route": "/talt.html",
+            "method": "GET",
+            "description": "Renders talt page with headings."
+          },
+          {
+            "route": "/starships.html",
+            "method": "GET",
+            "description": "Renders starships page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, and embedded Google Maps iframe. Displays contact info and location.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

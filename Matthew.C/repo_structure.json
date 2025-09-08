@@ -1,0 +1,155 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "banner1img.png": [],
+      "banner3img.png": [],
+      "logo.png": [],
+      "thumb": {
+        "thumb4.png": [],
+        "thumb1.png": [],
+        "thumb6.png": [],
+        "thumb2.png": [],
+        "thumb5.png": [],
+        "thumb3.png": []
+      },
+      "banner2img.png": [],
+      "mkultra.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "layout.html": [],
+    "table": {
+      "table1.html": []
+    },
+    "partials": {
+      "slider.html": [],
+      "hometext.html": [],
+      "hometext2.html": [],
+      "menu.html": []
+    },
+    "chars": {
+      "punisher.html": [],
+      "magneto.html": [],
+      "jeff.html": [],
+      "vanguard.html": [],
+      "rocket.html": [],
+      "contact.html": [],
+      "duelist.html": [],
+      "moonknight.html": [],
+      "groot.html": [],
+      "strategist.html": []
+    }
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, banner, carousel, card backgrounds, hero titles, and contact backgrounds. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/duelist.html",
+            "method": "GET",
+            "description": "Renders duelist page with card data."
+          },
+          {
+            "route": "/strategist.html",
+            "method": "GET",
+            "description": "Renders strategist page with card data."
+          },
+          {
+            "route": "/vanguard.html",
+            "method": "GET",
+            "description": "Renders vanguard page with card data."
+          },
+          {
+            "route": "/moonknight.html",
+            "method": "GET",
+            "description": "Renders moonknight page."
+          },
+          {
+            "route": "/groot.html",
+            "method": "GET",
+            "description": "Renders groot page."
+          },
+          {
+            "route": "/jeff.html",
+            "method": "GET",
+            "description": "Renders jeff page."
+          },
+          {
+            "route": "/punisher.html",
+            "method": "GET",
+            "description": "Renders punisher page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial and hero sections.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "chars/contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, and embedded Google Maps iframe. Displays contact info and location.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

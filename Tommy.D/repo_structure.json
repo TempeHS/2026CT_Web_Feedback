@@ -1,0 +1,83 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "Untitled design (1).png": [],
+      "Untitled.png": [],
+      "slider3.png": [],
+      "a travel-themed image.png": [],
+      "italy photo for ct.png": [],
+      "Second_italy_CT.png": [],
+      "slider1.png": [],
+      "slider2.png": [],
+      "logo.png": [],
+      "collesium.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    }
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom style for navbar brand image height. Most layout and components handled by Bootstrap."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

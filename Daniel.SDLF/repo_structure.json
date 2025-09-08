@@ -1,0 +1,124 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "CARDTHREE.png": [],
+      "sliderthree.png": [],
+      "CARDTWO.png": [],
+      "slidertwo.png": [],
+      "CARDONE.png": [],
+      "sliderone.png": [],
+      "logo.png": [],
+      "CARDFOUR.png": []
+    },
+    "Fonts": {
+      "Garamond.ttf": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "WG.html": [],
+    "layout.html": [],
+    "TTHP.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "contacts.html": [],
+    "RAC.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image and carousel image height. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/RAC.html",
+            "method": "GET",
+            "description": "Renders RAC page."
+          },
+          {
+            "route": "/Home.html",
+            "method": "GET",
+            "description": "Renders Home page."
+          },
+          {
+            "route": "/TTHP.html",
+            "method": "GET",
+            "description": "Renders TTHP page."
+          },
+          {
+            "route": "/WG.html",
+            "method": "GET",
+            "description": "Renders WG page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial. Custom card layout and genre explorer description.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contacts.html",
+        "overview": "Contact page with Bootstrap grid and columns. Minimal content, placeholder for contact info.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

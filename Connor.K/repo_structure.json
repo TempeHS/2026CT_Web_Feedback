@@ -1,0 +1,153 @@
+{
+  "static": {
+    "js": {
+      "logintoast.js": [],
+      "toast.js": [],
+      "progressbar.js": []
+    },
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "card2.png": [],
+      "card4.png": [],
+      "card5.png": [],
+      "card3.png": [],
+      "slider_2.png": [],
+      "card6.png": [],
+      "viruslogo.png": [],
+      "slider_3.png": [],
+      "card1.png": [],
+      "slider_1.png": [],
+      "logo.png": [],
+      "favicon.png": [],
+      "bg.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "index.html": [],
+    "articlelayout.html": [],
+    "starting.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "loginalert.html": [],
+      "virustoast.html": [],
+      "progressbar.html": [],
+      "login.html": [],
+      "menu.html": [],
+      "logintoast.html": [],
+      "menunoprogress.html": []
+    },
+    "flash.html": [],
+    "loginpage.html": [],
+    "credits.html": [],
+    "contact.html": [],
+    "goodweb.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, container backgrounds, offcanvas, progress bar, toast notifications, and card layout. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/starting.html",
+            "method": "GET",
+            "description": "Renders starting page."
+          },
+          {
+            "route": "/credits.html",
+            "method": "GET",
+            "description": "Renders credits page."
+          },
+          {
+            "route": "/goodweb.html",
+            "method": "GET",
+            "description": "Renders good web design examples page."
+          },
+          {
+            "route": "/login.html",
+            "method": "GET",
+            "description": "Renders login page."
+          },
+          {
+            "route": "/flash.html",
+            "method": "GET",
+            "description": "Renders flash page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial. Custom card layout and progress bar features.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns",
+          "Progress bar",
+          "Toast"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, and embedded Google Maps iframe. Displays contact info and location.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content. Integrates progress bar and toast scripts.",
+        "bootstrap_components": [
+          "Navbar",
+          "Container",
+          "Progress bar",
+          "Toast"
+        ],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

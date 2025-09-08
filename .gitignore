@@ -170,3 +170,25 @@ cython_debug/
 # Assessment System Files
 copilot-instructions.md
 student_progress_tracker.md
+student_ranking.md
+
+# Project-specific files
+student_ranking.backup
+repo_structure_cleaned.json
+validate_notes.py
+check_feedback_and_ranking.py
+clean_feedback_templates.py
+clean_repo_structure.py
+repo_structure_to_json.py
+INSTRUCTIONS_FOR_STUDENT_ASSESSMENT.md
+.DS_Store
+Thumbs.db
+
+# VS Code settings (if not wanted in version control)
+.vscode/settings.json
+.vscode/extensions.json
+
+# Temporary assessment files
+*.tmp
+*.temp
+*~

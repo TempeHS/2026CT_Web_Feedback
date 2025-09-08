@@ -1,0 +1,38 @@
+{
+  "static": {
+    "js": {
+      "darkmode.js": []
+    },
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "who.png": [],
+      "whatis.png": [],
+      "Slider3.png": [],
+      "Slider3.psd": [],
+      "logo.png": [],
+      "Slider2.png": [],
+      "Slider1.png": [],
+      "contact.png": [],
+      "whatcauses.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "whatcauses.html": [],
+    "index.html": [],
+    "who.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "contact.html": [],
+    "whatis.html": [],
+    "donate.html": [],
+    "sources.html": []
+  }
+}

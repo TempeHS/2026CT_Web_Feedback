@@ -1,0 +1,136 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "combo1.png": [],
+      "mid.png": [],
+      "slider3.png": [],
+      "cardimg2.png": [],
+      "krumblor.webp": [],
+      "cardimg1.png": [],
+      "background.png": [],
+      "late.webp": [],
+      "minigameimg4.webp": [],
+      "slider1.png": [],
+      "slider2.png": [],
+      "cardimg3.png": [],
+      "logo.png": [],
+      "early.jpg": [],
+      "minigameimg3.webp": [],
+      "minigameimg2.webp": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "minigames.html": [],
+    "index.html": [],
+    "nothere.html": [],
+    "krumblor.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "contact.html": [],
+    "combos.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, slider image, card sizes, and background image. Most styling handled by Bootstrap."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/glossary.html",
+            "method": "GET",
+            "description": "Renders glossary page."
+          },
+          {
+            "route": "/nothere.html",
+            "method": "GET",
+            "description": "Renders nothere page."
+          },
+          {
+            "route": "/minigames.html",
+            "method": "GET",
+            "description": "Renders minigames page."
+          },
+          {
+            "route": "/krumblor.html",
+            "method": "GET",
+            "description": "Renders krumblor page."
+          },
+          {
+            "route": "/combos.html",
+            "method": "GET",
+            "description": "Renders combos page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, and embedded Google Maps iframe.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}

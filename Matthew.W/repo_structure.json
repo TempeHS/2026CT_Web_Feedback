@@ -1,0 +1,128 @@
+{
+  "static": {
+    "css": {
+      "style.css": []
+    },
+    "images": {
+      "card_3.png": [],
+      "card_2.png": [],
+      "slider_2.png": [],
+      "card_1.png": [],
+      "slider_3.png": [],
+      "slider_1.png": [],
+      "Desktop": {
+        "desktop.ini": [],
+        "Shortcuts.lnk": []
+      },
+      "card_5.png": [],
+      "card_4.png": [],
+      "logo.png": [],
+      "image.png": []
+    }
+  },
+  "main.py": [],
+  "feedback.md": [],
+  "repo_structure.json": [],
+  "templates": {
+    "pricing.html": [],
+    "index.html": [],
+    "layout.html": [],
+    "partials": {
+      "slider.html": [],
+      "menu.html": []
+    },
+    "login.html": [],
+    "contact.html": [],
+    "tips.html": []
+  },
+  "notes": {
+    "css": [
+      {
+        "file": "style.css",
+        "overview": "Custom styles for navbar brand image, carousel image aspect ratio, pricing cards, feature lists, buttons, and signup backgrounds. Uses Bootstrap for layout and components."
+      }
+    ],
+    "python": [
+      {
+        "file": "main.py",
+        "endpoints": [
+          {
+            "route": "/",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/index.html",
+            "method": "GET",
+            "description": "Renders index page with card data."
+          },
+          {
+            "route": "/contact.html",
+            "method": "GET",
+            "description": "Renders contact page."
+          },
+          {
+            "route": "/tips.html",
+            "method": "GET",
+            "description": "Renders tips page."
+          },
+          {
+            "route": "/checkout.html",
+            "method": "GET",
+            "description": "Renders checkout page."
+          },
+          {
+            "route": "/pricing.html",
+            "method": "GET",
+            "description": "Renders pricing page."
+          },
+          {
+            "route": "/login.html",
+            "method": "GET",
+            "description": "Renders login page."
+          }
+        ]
+      }
+    ],
+    "html": [
+      {
+        "file": "index.html",
+        "overview": "Homepage with Bootstrap grid, card, button, and container. Jinja2 for loop to render cards. Includes slider partial and custom card layout.",
+        "bootstrap_components": [
+          "Grid",
+          "Card",
+          "Button",
+          "Container",
+          "Row",
+          "Carousel (slider)",
+          "Responsive columns"
+        ],
+        "jinja2_features": [
+          "extends",
+          "include",
+          "for loop",
+          "variable rendering",
+          "block"
+        ]
+      },
+      {
+        "file": "contact.html",
+        "overview": "Contact page with Bootstrap grid, columns, and embedded Google Maps iframe. Displays contact info and location.",
+        "bootstrap_components": [
+          "Grid",
+          "Responsive columns",
+          "Container",
+          "Row",
+          "Iframe"
+        ],
+        "jinja2_features": ["extends", "block"]
+      },
+      {
+        "file": "layout.html",
+        "overview": "Base template with Bootstrap CSS/JS, includes menu partial, defines block for content.",
+        "bootstrap_components": ["Navbar", "Container"],
+        "jinja2_features": ["block", "include"]
+      }
+    ]
+  }
+}
