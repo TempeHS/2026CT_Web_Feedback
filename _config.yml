@@ -6,10 +6,6 @@ url: "https://tempehs.github.io"
 
 # Theme
 theme: minima
-# Alternative themes you can use:
-# theme: jekyll-theme-cayman
-# theme: jekyll-theme-minimal
-# theme: jekyll-theme-architect
 
 # Markdown settings
 markdown: kramdown
@@ -23,54 +19,48 @@ plugins:
 
 # SEO and social
 author: "TempeHS Computing Technology Department"
-twitter:
-  username: tempehs
-social:
-  name: "TempeHS"
-  links:
-    - "https://github.com/TempeHS"
 
-# Navigation
-header_pages:
-  - README.md
-
-# Collections (if you want to organize student feedback better in the future)
-collections:
-  students:
-    output: true
-    permalink: /:collection/:name/
-
-# Exclude files from processing
+# Exclude all student directories and files to avoid Liquid processing conflicts
 exclude:
   - .git/
   - .gitignore
+  - .gitattributes
   - .venv/
   - .vscode/
   - .devcontainer/
   - requirements.txt
-  - "*/main.py"
-  - "*/static/"
-  - "*/templates/"
+  - LICENSE
+  - Bryan.H/
+  - Connor.K/
+  - Dan.O/
+  - Daniel.L/
+  - Daniel.SDLF/
+  - douglas.p/
+  - Isaac.j/
+  - Jamie.L/
+  - Jonathan.I/
+  - Khoi.C/
+  - Matthew.C/
+  - Matthew.W/
+  - Rad.A/
+  - Samuel.H/
+  - SebK/
+  - Toby.J/
+  - Tommy.D/
+  - Wolfgang/
+  - Zach.B/
+  - _plugins/
+  - _layouts/
 
-# Include specific files
+# Only include the main README and Jekyll files
 include:
-  - "*/feedback.md"
-  - "*/repo_structure.json"
+  - README.md
+  - index.md
 
-# Default layout for different file types
+# Default layout
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: "*/feedback.md"
-    values:
-      layout: "default"
-      permalink: /:path/

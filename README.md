@@ -26,27 +26,27 @@ Below is a complete directory of all student submissions with links to their ind
 
 ### Feedback Available
 
-| Student                       | Project Theme/Focus                         | Feedback Status |
-| ----------------------------- | ------------------------------------------- | --------------- |
-| [Bryan.H](./Bryan.H/)         | Skibidi Toilet Fan Website                  | ✅ Complete     |
-| [Connor.K](./Connor.K/)       | "Aple" Web Design Tutorial Platform         | ✅ Complete     |
-| [Dan.O](./Dan.O/)             | Saxophone Education & Tutoring Platform     | ✅ Complete     |
-| [Daniel.L](./Daniel.L/)       | Google Services Tutorial Website            | ✅ Complete     |
-| [Daniel.SDLF](./Daniel.SDLF/) | Book Genre Explorer & Reading Guide         | ✅ Complete     |
-| [douglas.p](./douglas.p/)     | Science Fiction Universe Encyclopedia       | ✅ Complete     |
-| [Isaac.j](./Isaac.j/)         | Tokyo Travel Guide Website                  | ✅ Complete     |
-| [Jamie.L](./Jamie.L/)         | Hollow Knight Boss Guide & Gaming Resource  | ✅ Complete     |
-| [Jonathan.I](./Jonathan.I/)   | KFC Information & Recipe Hub                | ✅ Complete     |
-| [Khoi.C](./Khoi.C/)           | "Neo" Technology Advisory Platform          | ✅ Complete     |
-| [Matthew.C](./Matthew.C/)     | Marvel Rivals Gaming Guide Website          | ✅ Complete     |
-| [Matthew.W](./Matthew.W/)     | Team Fortress 2 Coaching Platform           | ✅ Complete     |
-| [Rad.A](./Rad.A/)             | Nuclear Energy Information & Advocacy Site  | ✅ Complete     |
-| [Samuel.H](./Samuel.H/)       | Video Editing Coaching & Tutorial Platform  | ✅ Complete     |
-| [SebK](./SebK/)               | Cookie Clicker Gaming Guide & Tutorial Site | ✅ Complete     |
-| [Toby.J](./Toby.J/)           | Python Programming Education Platform       | ✅ Complete     |
-| [Tommy.D](./Tommy.D/)         | Travel & Tourism Destinations Website       | ✅ Complete     |
-| [Wolfgang](./Wolfgang/)       | Carcinization Education Website             | ✅ Complete     |
-| [Zach.B](./Zach.B/)           | Blooket Gamemode Information Guide          | ✅ Complete     |
+| Student                       | Project Theme/Focus                          | Feedback Status |
+| ----------------------------- | -------------------------------------------- | --------------- |
+| [Bryan.H](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Bryan.H/feedback.md)         | Skibidi Toilet Fan Website                   | ✅ Complete     |
+| [Connor.K](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Connor.K/feedback.md)       | "Aple" Web Design Tutorial Platform          | ✅ Complete     |
+| [Dan.O](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Dan.O/feedback.md)             | Saxophone Education & Tutoring Platform      | ✅ Complete     |
+| [Daniel.L](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Daniel.L/feedback.md)       | Google Services Tutorial Website             | ✅ Complete     |
+| [Daniel.SDLF](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Daniel.SDLF/feedback.md) | Book Genre Explorer & Reading Guide          | ✅ Complete     |
+| [douglas.p](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/douglas.p/feedback.md)     | Science Fiction Universe Encyclopedia        | ✅ Complete     |
+| [Isaac.j](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Isaac.j/feedback.md)         | Tokyo Travel Guide Website                   | ✅ Complete     |
+| [Jamie.L](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Jamie.L/feedback.md)         | Hollow Knight Boss Guide & Gaming Resource   | ✅ Complete     |
+| [Jonathan.I](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Jonathan.I/feedback.md)   | KFC Information & Recipe Hub                 | ✅ Complete     |
+| [Khoi.C](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Khoi.C/feedback.md)           | "Neo" Technology Advisory Platform            | ✅ Complete     |
+| [Matthew.C](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Matthew.C/feedback.md)     | Marvel Rivals Gaming Guide Website           | ✅ Complete     |
+| [Matthew.W](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Matthew.W/feedback.md)     | Team Fortress 2 Coaching Platform            | ✅ Complete     |
+| [Rad.A](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Rad.A/feedback.md)             | Nuclear Energy Information & Advocacy Site   | ✅ Complete     |
+| [Samuel.H](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Samuel.H/feedback.md)       | Video Editing Coaching & Tutorial Platform   | ✅ Complete     |
+| [SebK](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/SebK/feedback.md)               | Cookie Clicker Gaming Guide & Tutorial Site  | ✅ Complete     |
+| [Toby.J](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Toby.J/feedback.md)           | Python Programming Education Platform        | ✅ Complete     |
+| [Tommy.D](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Tommy.D/feedback.md)         | Travel & Tourism Destinations Website        | ✅ Complete     |
+| [Wolfgang](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Wolfgang/feedback.md)       | Carcinization Education Website              | ✅ Complete     |
+| [Zach.B](https://github.com/TempeHS/2026CT_Web_Feedback/blob/main/Zach.B/feedback.md)           | Blooket Gamemode Information Guide           | ✅ Complete     |
 
 ## Project Structure
 
@@ -61,9 +61,9 @@ Each student directory contains:
 
 ## How to Access Feedback
 
-1. **Individual Feedback**: Click on any student name above to view their project directory
-2. **Detailed Feedback**: Open the `feedback.md` file in each student's directory for comprehensive assessment
-3. **View Code**: Explore the `main.py`, `templates/`, and `static/` folders to see the actual implementation
+1. **Individual Feedback**: Click on any student name above to view their detailed feedback document on GitHub
+2. **View Student Code**: Navigate to the student's directory in the [repository](https://github.com/TempeHS/2026CT_Web_Feedback) to explore their `main.py`, `templates/`, and `static/` folders
+3. **Download Projects**: Clone or download the repository to run student projects locally
 
 ## Feedback Structure
 
