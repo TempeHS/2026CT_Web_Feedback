@@ -13,303 +13,108 @@ This document tracks the assessment progress for all 18 students in the 2026CT W
 ## Assessment Progress Summary
 
 **Total Students:** 18
-**Completed:** 0/18 (0%)
+**Completed:** 1/18 (6%)
 **In Progress:** 0/18 (0%)
-**Not Started:** 18/18 (100%)
+**Not Started:** 17/18 (94%)
 
-**Last Updated:** September 6, 2025
-
----
+**Last Updated:** September 8, 2025
 
 ## Individual Student Progress
 
 ### 1. Bryan.H
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 2. Connor.K
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 3. Dan.O
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** 🔄 In Progress
+**Progress:** Working
 
 ### 4. Daniel.L
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 5. Daniel.SDLF
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 6. Isaac.j
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 7. Jamie.L
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 8. Jonathan.I
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 9. Khoi.C
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** 🔄 In Progress
+**Progress:** Working
 
 ### 10. Matthew.C
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** 🔄 In Progress
+**Progress:** Working
 
 ### 11. Matthew.W
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 12. Rad.A
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 13. Samuel.H
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 14. SebK
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 15. Toby.J
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 16. Tommy.D
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 17. Zach.B
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
 
 ### 18. douglas.p
 
-- **Status:** ⬜ Not Started
-- **Progress:** 0%
-- **Assessment Phases:**
-  - [ ] Project Structure Analysis
-  - [ ] HTML Structure & Semantics Assessment
-  - [ ] CSS Design & Styling Assessment
-  - [ ] Flask Implementation Assessment
-  - [ ] User Experience & Functionality Assessment
-  - [ ] Technical Implementation Assessment
-  - [ ] Individual Feedback File Creation
-  - [ ] Grade Calculation & Documentation
-- **Notes:** _Initial setup pending_
-- **Last Updated:** September 6, 2025
+**Status:** ✅ Complete
+**Progress:** 100%
+
+### 19. Wolfgang
+
+**Status:** ⬜ Not Started
+**Progress:** 0%
 
 ---
 
