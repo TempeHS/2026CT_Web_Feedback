@@ -1,3 +1,9 @@
+---
+layout: default
+title: "2026CT Web Development Task - Student Feedback Repository"
+description: "Comprehensive feedback for Year 9 students' Flask web development projects from the 2026 Computing Technology course"
+---
+
 # 2026CT Web Development Task - Student Feedback Repository
 
 ## Overview

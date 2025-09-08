@@ -1,0 +1,76 @@
+# GitHub Pages Configuration
+title: "2026CT Web Development Task - Student Feedback"
+description: "Comprehensive feedback for Year 9 students' Flask web development projects from the 2026 Computing Technology course"
+baseurl: "/2026CT_Web_Feedback"
+url: "https://tempehs.github.io"
+
+# Theme
+theme: minima
+# Alternative themes you can use:
+# theme: jekyll-theme-cayman
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-architect
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO and social
+author: "TempeHS Computing Technology Department"
+twitter:
+  username: tempehs
+social:
+  name: "TempeHS"
+  links:
+    - "https://github.com/TempeHS"
+
+# Navigation
+header_pages:
+  - README.md
+
+# Collections (if you want to organize student feedback better in the future)
+collections:
+  students:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files from processing
+exclude:
+  - .git/
+  - .gitignore
+  - .venv/
+  - .vscode/
+  - .devcontainer/
+  - requirements.txt
+  - "*/main.py"
+  - "*/static/"
+  - "*/templates/"
+
+# Include specific files
+include:
+  - "*/feedback.md"
+  - "*/repo_structure.json"
+
+# Default layout for different file types
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "*/feedback.md"
+    values:
+      layout: "default"
+      permalink: /:path/
