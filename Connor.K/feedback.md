@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Connor.K Web Design Project Feedback"
+description: "Detailed feedback for Connor.K's Flask web development project"
+---
+
 # Connor.K Web Design Project Feedback
 
 ## Website Overview

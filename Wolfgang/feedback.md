@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Wolfgang - Web Design Project Feedback"
+description: "Detailed feedback for Wolfgang's Flask web development project"
+---
+
 # Wolfgang - Web Design Project Feedback
 
 ## Website Overview

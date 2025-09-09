@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "SebK Web Design Project Feedback"
+description: "Detailed feedback for SebK's Flask web development project"
+---
+
 # SebK Web Design Project Feedback
 
 Seb's web design project is a comprehensive Cookie Clicker gaming guide and tutorial website designed to help players maximize their gameplay experience and optimize their strategies. The website functions as a specialized gaming resource platform providing expert advice on advanced Cookie Clicker mechanics including golden cookie combinations for massive multiplier effects, Krumblor dragon training strategies and aura optimization, detailed minigame guides covering Garden, Stock Market, Pantheon, and Grimoire systems, and planned progression guides for early, mid, and late game stages. Key features include a dynamic card-based homepage showcasing different guide categories with custom imagery, detailed tutorial pages with strategic gaming advice and visual demonstrations, embedded contact functionality with Google Maps integration, and a professional navigation system organizing complex gaming information into accessible categories. The site demonstrates solid Flask routing with 7 different routes, proper template inheritance patterns, extensive custom CSS styling with gaming-themed backgrounds, and creative use of Bootstrap components for responsive gaming content presentation.

@@ -20,7 +20,7 @@ plugins:
 # SEO and social
 author: "TempeHS TAS Faculty"
 
-# Exclude all student directories and files to avoid Liquid processing conflicts
+# Exclude files that shouldn't be processed by Jekyll
 exclude:
   - .git/
   - .gitignore
@@ -30,32 +30,7 @@ exclude:
   - .devcontainer/
   - requirements.txt
   - LICENSE
-  - Bryan.H/
-  - Connor.K/
-  - Dan.O/
-  - Daniel.L/
-  - Daniel.SDLF/
-  - douglas.p/
-  - Isaac.j/
-  - Jamie.L/
-  - Jonathan.I/
-  - Khoi.C/
-  - Matthew.C/
-  - Matthew.W/
-  - Rad.A/
-  - Samuel.H/
-  - SebK/
-  - Toby.J/
-  - Tommy.D/
-  - Wolfgang/
-  - Zach.B/
   - _plugins/
-  - _layouts/
-
-# Only include the main README and Jekyll files
-include:
-  - README.md
-  - index.md
 
 # Default layout
 defaults:
@@ -64,3 +39,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: "*/feedback.md"
+    values:
+      layout: "feedback"

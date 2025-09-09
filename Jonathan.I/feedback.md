@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Jonathan.I Web Design Project Feedback"
+description: "Detailed feedback for Jonathan.I's Flask web development project"
+---
+
 # Jonathan.I Web Design Project Feedback
 
 Jonathan's web design project is a comprehensive KFC-themed website that serves as an information hub for fried chicken enthusiasts. The website features a multi-page Flask application with a dynamic homepage showcasing KFC-related topics through interactive cards, a detailed recipe page with step-by-step instructions for making KFC-style chicken, a contact page with location information and an interactive star rating system, and a sign-in page with form functionality. The site demonstrates understanding of template inheritance, Bootstrap components, and basic Flask routing while maintaining a consistent KFC brand theme throughout all pages.
@@ -38,7 +44,7 @@ The Flask application structure is well-organized with clean route definitions a
 
 The dynamic card data system is particularly well-implemented, using Python tuples to store card information that's efficiently passed to the template and rendered using Jinja2 loops. This demonstrates understanding of the Model-View-Controller pattern where data is managed in Python and presented through templates. The tuple structure effectively handles multiple data points including titles, descriptions, images, and link destinations.
 
-Template inheritance is properly implemented with consistent use of `{% extends 'layout.html' %}` and `{% block content %}` structures across all pages. The inclusion of partial templates (`{% include "partials/menu.html" %}`) shows good code organization and reusability principles. However, the application could benefit from more advanced Flask features such as form handling with POST requests, session management, or data validation.
+Template inheritance is properly implemented with consistent use of ``{% extends 'layout.html' %}`` and ``{% block content %}`` structures across all pages. The inclusion of partial templates (``{% include "partials/menu.html" %}``) shows good code organization and reusability principles. However, the application could benefit from more advanced Flask features such as form handling with POST requests, session management, or data validation.
 
 ## User Experience and Functionality
 

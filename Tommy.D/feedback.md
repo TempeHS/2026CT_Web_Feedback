@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Tommy.D Web Design Project Feedback"
+description: "Detailed feedback for Tommy.D's Flask web development project"
+---
+
 # Tommy.D Web Design Project Feedback
 
 Tommy's web design project is a basic travel and destinations website designed to showcase tourist attractions and travel information. The website functions as a simple tourism platform featuring an image carousel displaying Italy travel destinations, a card-based system for presenting destination information, and basic navigation structure for travel-related content organization. Key features include a homepage carousel showcasing Italian travel destinations with custom travel imagery, a dynamic card system using Flask data passing to display destination information, basic Bootstrap navigation with dropdown menus for destination categories, and a minimal but functional Flask backend supporting the travel content structure. The site demonstrates fundamental Flask routing with a single route, basic template inheritance patterns, limited custom CSS styling, and simple use of Bootstrap components for travel content presentation, representing an early-stage implementation of a travel website concept.

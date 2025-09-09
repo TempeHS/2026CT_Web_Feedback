@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Dan.O Web Design Project Feedback"
+description: "Detailed feedback for Dan.O's Flask web development project"
+---
+
 # Dan.O Web Design Project Feedback
 
 ## Website Overview

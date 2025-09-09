@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Isaac.j - Web Design Project Feedback"
+description: "Detailed feedback for Isaac.j's Flask web development project"
+---
+
 # Isaac.j - Web Design Project Feedback
 
 ## Website Overview
@@ -25,7 +31,7 @@ Isaac.j has created a Tokyo travel guide website with an authentic Japanese aest
 
 ## HTML Structure and Semantics
 
-Isaac.j's project demonstrates basic understanding of HTML5 structure with proper DOCTYPE declaration and appropriate meta tags in the layout.html template. The title "Lost in Tokyo" clearly communicates the site's purpose, and the template inheritance system is correctly implemented across all pages using `{% extends 'layout.html' %}` and `{% block content %}`.
+Isaac.j's project demonstrates basic understanding of HTML5 structure with proper DOCTYPE declaration and appropriate meta tags in the layout.html template. The title "Lost in Tokyo" clearly communicates the site's purpose, and the template inheritance system is correctly implemented across all pages using ``{% extends 'layout.html' %}`` and ``{% block content %}``.
 
 The partials system is appropriately used with separate menu and slider components, showing good organizational thinking. The fixed sidebar navigation creates a professional travel guide interface that's well-suited to the content type.
 

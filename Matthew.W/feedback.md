@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Matthew.W Web Design Project Feedback"
+description: "Detailed feedback for Matthew.W's Flask web development project"
+---
+
 # Matthew.W Web Design Project Feedback
 
 Matthew's web design project is a comprehensive Team Fortress 2 coaching and strategy website that serves as both an educational resource for players and a commercial platform for professional gaming coaching services. The website features detailed class-based strategy guides categorized by offensive, defensive, and support roles, professional coaching service packages with tiered pricing plans, practical gameplay tips and tactics for improving TF2 skills, user authentication system for accessing premium coaching features, and dynamic content delivery through Flask routing and Bootstrap components. The site demonstrates understanding of both gaming community needs and commercial web application structure, combining informative content with service monetization in an engaging Team Fortress 2-themed design.
@@ -39,7 +45,7 @@ The Flask application demonstrates solid understanding of web development fundam
 
 The dynamic card data system effectively manages complex information including class descriptions, coaching details, and visual assets, demonstrating understanding of how to structure data for template consumption. The routing structure logically supports user journeys from information gathering (tips, class guides) through service discovery (pricing) to user account management (login). The card data includes detailed content about TF2 classes and coaching services, showing research into the gaming domain.
 
-Template inheritance is consistently implemented across all routes with clean `{% extends 'layout.html' %}` patterns and proper block structure. However, there are some routing inconsistencies - some card buttons reference routes that don't exist (like `pricing.html` in card data that should link to `/pricing.html`), and the navigation dropdown items point to content that isn't implemented, which could confuse users.
+Template inheritance is consistently implemented across all routes with clean ``{% extends 'layout.html' %}`` patterns and proper block structure. However, there are some routing inconsistencies - some card buttons reference routes that don't exist (like `pricing.html` in card data that should link to `/pricing.html`), and the navigation dropdown items point to content that isn't implemented, which could confuse users.
 
 ## User Experience and Functionality
 

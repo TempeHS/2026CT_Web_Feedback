@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Daniel.SDLF - Web Design Project Feedback"
+description: "Detailed feedback for Daniel.SDLF's Flask web development project"
+---
+
 # Daniel.SDLF - Web Design Project Feedback
 
 ## Website Overview
@@ -23,7 +29,7 @@ Daniel.SDLF's web design project is a book genre exploration platform called "Bo
 
 Daniel.SDLF's project demonstrates a basic understanding of HTML5 structure and document organization. The layout.html template provides a standard foundation with proper DOCTYPE declaration, meta tags, and Bootstrap integration. The use of semantic HTML elements is adequate, though there's room for improvement in the overall document structure.
 
-The template inheritance system is implemented correctly with `layout.html` serving as the base template and other pages properly extending it using `{% extends 'layout.html' %}` and `{% block content %}`. The partials system with separate menu and slider components shows good organizational thinking.
+The template inheritance system is implemented correctly with `layout.html` serving as the base template and other pages properly extending it using ``{% extends 'layout.html' %}`` and ``{% block content %}``. The partials system with separate menu and slider components shows good organizational thinking.
 
 However, there are several areas needing attention. The WG.html template includes inline CSS styling within the HTML document, which breaks the separation of concerns principle and should be moved to the external stylesheet. The page structure lacks proper heading hierarchy in some areas, and the content organization could benefit from more semantic HTML elements like `<section>` or `<article>` tags.
 
@@ -53,7 +59,7 @@ The Flask application lacks error handling, form processing capabilities, or any
 
 The user experience design demonstrates basic navigation structure and content organization around the book genre theme. The homepage provides a clear introduction to the "Book Genre Explorer" concept with descriptive text and card-based navigation to different genres. The navigation menu is straightforward with clear labels for different sections.
 
-The card system on the homepage effectively uses Jinja2 filtering to create anchor links to specific sections within the WG.html page (e.g., `#{{ card[0]|lower|replace(' ', '') }}`), showing creative thinking about internal page navigation. This creates a connected user experience between the homepage cards and detailed genre information.
+The card system on the homepage effectively uses Jinja2 filtering to create anchor links to specific sections within the WG.html page (e.g., `#`{{ card[0]|lower|replace(' ', '') }}``), showing creative thinking about internal page navigation. This creates a connected user experience between the homepage cards and detailed genre information.
 
 However, several pages appear incomplete or contain placeholder content. The TTHP.html page contains only a heading with no content, and RAC.html uses Lorem ipsum text instead of meaningful reviews. This creates a poor user experience as visitors cannot access the promised functionality.
 

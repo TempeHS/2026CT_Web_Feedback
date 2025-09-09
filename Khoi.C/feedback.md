@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Khoi.C Web Design Project Feedback"
+description: "Detailed feedback for Khoi.C's Flask web development project"
+---
+
 # Khoi.C Web Design Project Feedback
 
 Khoi's web design project is a comprehensive technology advisory website called "Neo" that specializes in helping users choose between laptops and desktops for different purposes. The website serves as an educational resource and product recommendation platform, featuring detailed information pages about both laptops and desktops, comparison guides tailored for students and employees, product showcase pages with specifications and shopping links, and interactive user account functionality. The site demonstrates sophisticated Flask routing with 11 different routes, professional Bootstrap implementation with responsive design, custom JavaScript functionality for form validation and interactive features, and a cohesive brand identity with the "Neo" technology theme.
@@ -46,7 +52,7 @@ The Flask application demonstrates advanced understanding of web development wit
 
 The dynamic card data implementation is particularly well-executed, efficiently storing and passing complex information including titles, descriptions, images, and routing destinations to create an interactive homepage experience. The routing structure logically supports the entire user journey from information gathering (`/about_laptops.html`, `/about_desktops.html`) through product discovery (`/find_laptops.html`) to user account management (`/login.html`, `/signup.html`) and comparative analysis (`/compare_student.html`, `/compare_employee.html`).
 
-Template inheritance is consistently and properly implemented across all routes with clean `{% extends 'layout.html' %}` and `{% block content %}` structures. The inclusion of partial templates demonstrates good code organization and reusability principles. The Flask application effectively supports a complete technology advisory platform with room for expansion into more advanced features like user sessions, database integration, or form processing with POST methods.
+Template inheritance is consistently and properly implemented across all routes with clean ``{% extends 'layout.html' %}`` and ``{% block content %}`` structures. The inclusion of partial templates demonstrates good code organization and reusability principles. The Flask application effectively supports a complete technology advisory platform with room for expansion into more advanced features like user sessions, database integration, or form processing with POST methods.
 
 ## User Experience and Functionality
 

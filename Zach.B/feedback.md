@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Zach.B - Web Design Project Feedback"
+description: "Detailed feedback for Zach.B's Flask web development project"
+---
+
 # Zach.B - Web Design Project Feedback
 
 Zach's web design project is a comprehensive Blooket gamemode information website that serves as a detailed guide to different types of game modes available in the popular educational gaming platform Blooket. The website categorizes gamemodes into four distinct types - skill-based, luck-based, hybrid, and plus-only modes - providing users with an organized resource to understand and explore different gaming options. The site features dynamic card displays, interactive navigation, contact functionality, and even includes thoughtful touches like a custom 404 error page and a hidden page for users to discover.

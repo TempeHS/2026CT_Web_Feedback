@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Matthew.C Web Design Project Feedback"
+description: "Detailed feedback for Matthew.C's Flask web development project"
+---
+
 # Matthew.C Web Design Project Feedback
 
 Matthew's web design project is a comprehensive Marvel Rivals gaming guide website that serves as an educational resource for players learning to play different heroes in the popular superhero game. The website features a sophisticated character guide system organized by hero roles (Duelist, Strategist, Vanguard), detailed individual character pages with ability breakdowns and gameplay strategies, professional carousel slideshows with custom timing intervals, and dynamic card systems that categorize heroes by their game roles. The site demonstrates advanced Flask routing with 12 different routes, professional template organization with role-based categorization, custom CSS styling with gradient effects and gaming aesthetics, and comprehensive content structure designed to help new players understand hero mechanics and team composition strategies.
@@ -48,7 +54,7 @@ The Flask application demonstrates excellent understanding of web development wi
 
 The dynamic data system is particularly well-implemented, with role-specific card filtering that efficiently passes different hero subsets to duelist, strategist, and vanguard pages while maintaining the same template structure. This demonstrates strong understanding of the DRY (Don't Repeat Yourself) principle and efficient code organization. The routing structure logically supports the entire user journey from general hero browsing to detailed character-specific guides.
 
-Template inheritance is consistently implemented across all routes with clean `{% extends 'layout.html' %}` patterns and proper block structure. The use of multiple include statements for partials (slider, hometext, tables) shows good understanding of component-based architecture. The Flask application effectively supports a complete gaming guide platform with room for expansion into more advanced features like user accounts, hero statistics, or dynamic content management.
+Template inheritance is consistently implemented across all routes with clean ``{% extends 'layout.html' %}`` patterns and proper block structure. The use of multiple include statements for partials (slider, hometext, tables) shows good understanding of component-based architecture. The Flask application effectively supports a complete gaming guide platform with room for expansion into more advanced features like user accounts, hero statistics, or dynamic content management.
 
 ## User Experience and Functionality
 

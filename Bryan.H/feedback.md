@@ -1,3 +1,9 @@
+---
+layout: feedback
+title: "Bryan.H Web Design Project Feedback"
+description: "Detailed feedback for Bryan.H's Skibidi Toilet fan website Flask project"
+---
+
 # Bryan.H Web Design Project Feedback
 
 ## Website Overview
