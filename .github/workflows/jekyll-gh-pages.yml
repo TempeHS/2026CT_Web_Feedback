@@ -27,12 +27,39 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Create GitHub Pages site with only README
+        run: |
+          # Create a temporary directory for the site
+          mkdir -p temp_site
+
+          # Copy only README.md and rename it to index.md for GitHub Pages
+          cp README.md temp_site/index.md
+
+          # Create a minimal _config.yml that only processes README content
+          cat > temp_site/_config.yml << 'EOF'
+          title: "2026CT Web Development Task - Student Feedback"
+          description: "Comprehensive feedback for Year 9 students' Flask web development projects"
+          baseurl: "/2026CT_Web_Feedback"
+          url: "https://tempehs.github.io"
+          theme: minima
+          markdown: kramdown
+          highlighter: rouge
+          plugins:
+            - jekyll-feed
+            - jekyll-sitemap
+            - jekyll-seo-tag
+          # Exclude everything except the index.md
+          include:
+            - index.md
+          exclude:
+            - "*"
+          EOF
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
+          source: ./temp_site
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

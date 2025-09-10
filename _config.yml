@@ -19,27 +19,5 @@ plugins:
 
 # SEO and social
 author: "TempeHS TAS Faculty"
-
-# Exclude files that shouldn't be processed by Jekyll
-exclude:
-  - .git/
-  - .gitignore
-  - .gitattributes
-  - .venv/
-  - .vscode/
-  - .devcontainer/
-  - requirements.txt
-  - LICENSE
-  - _plugins/
-
-# Default layout
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: "*/feedback.md"
-    values:
-      layout: "feedback"
+# This config will be overridden by the GitHub Action
+# The action creates its own minimal config that only processes README.md
